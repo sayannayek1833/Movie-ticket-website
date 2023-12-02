@@ -1,0 +1,123 @@
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5),black),url('back12.jpg'); 
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.navl{
+    flex: 1;
+    text-align: right;
+    margin-right: -930px;
+    margin-top: -350px;
+}
+
+.navl ul li{
+    list-style: none;
+    display: inline-block;
+    padding:  8px 12px;
+    position: relative;
+    
+}
+.navl ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: 10px;
+    border-color: white;
+    transition: 0.3s;
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.navl ul li a:hover{
+    color: rgb(203, 203, 203);
+
+}
+.navl ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: rgb(203, 203, 203);
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+.navl ul li:hover::after{
+    width: 100%;
+}
+
+
+.form-container {
+    background:linear-gradient(rgba(0,0,0,0.5),rgb(60, 15, 15)); 
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgb(0, 0, 0);
+    margin-top: 10%;
+    margin-left: 70px;
+    height: 50vh;
+    margin-top: -30px;
+
+    
+}
+
+.form-container h2 {
+    text-align: center;
+    color:white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: white;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007BFF; 
+}
+
+.login-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    margin-top: 7%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+p{
+    font-size: 20px;
+    color:white;
+}
+p a{
+    color:white;
+}
+p a:hover{
+    color:blue;
+}

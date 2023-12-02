@@ -1,0 +1,121 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),black),url('back12.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    height: 105vh;
+}
+.signup{
+    background:linear-gradient(rgba(0,0,0,0.75),rgb(60, 15, 15)); 
+    padding: 20px;
+    border: 2px solid black;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgb(0, 0, 0);
+    margin-top: 10%;
+    margin-right: 60%;
+    height: 80vh;
+    margin-top: 70px;
+    margin-left: 500px;
+
+
+
+}
+.header{
+        min-height: 100vh;
+        width: 100%;}
+h2{
+    color:white;
+    text-align: center;
+    
+}
+.navl{
+    flex: 1;
+    text-align: right;
+    margin-right: -1450px;
+    
+}
+
+.navl ul li{
+    list-style: none;
+    display: inline-block;
+    padding:  8px 12px;
+    position: relative;
+    
+}
+.navl ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: 10px;
+    border-color: white;
+    margin: 10px;
+    transition: 0.3s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.navl ul li a:hover{
+    color: rgb(203, 203, 203);
+
+}
+.navl ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: rgb(203, 203, 203);
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+.navl ul li:hover::after{
+    width: 100%;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    color:white;
+}
+
+.content{
+    margin:5px 0;
+}
+.content input{
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.sign{
+    background-color: #007BFF;
+    color: white;
+  text-align: center;
+    padding: 3px;
+    margin-top: 1%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 350px;
+    font-size: 17px;
+}
+.sign:hover{
+    background-color:  #0056b3;
+}
+pre{
+    color:white;
+    font-size: 20px;
+}
+p a{
+    color:white;
+    font-size: 20px;
+}
+p a:hover{
+    color:blue;
+}
+section{
+    margin-right: -400px;
+    
+}

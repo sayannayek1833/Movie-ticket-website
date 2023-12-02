@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    
+    background-image:linear-gradient(rgba(0,0,0,0.5),black) ,url('back12.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav img{
+    width: 150px;
+}
+.navl{
+    flex: 1;
+    text-align: right;
+}
+.navl ul li{
+    list-style: none;
+    display: inline-block;
+    padding:  8px 12px;
+    position: relative;
+}
+.navl ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    border: 10px;
+    font-size: 25px;
+    border-color: white;
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 0.3s;
+    
+
+}
+.navl ul li a:hover{
+    color:rgb(203, 203, 203);
+
+
+}
+.navl ul li::after{
+    /* content: '';
+    width: 0%;
+    height: 2px; */
+    background-color: rgb(203, 203, 203);
+    /* display: block;
+    margin: auto;
+    transition: 0.3s; */
+}
+.navl ul li:hover::after{
+    width: 100%;
+}
+.textb{
+    width: 90%;
+    color:white;
+    position: absolute;
+    top: 50%;
+    text-align: end;
+    margin-left: 100px;
+}
+.textb h1{
+    font-size: 62px;
+}
+.textb p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    height: 15px;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+.btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 0.6s;
+    opacity: 90%;
+    font-size: 13px;
+}
+
+
+.course{
+    height:120vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin:auto;
+    padding-top: 50px;
+
+}
+.set{
+    margin: 50px;
+    padding: 100px;
+}
+#change{
+    font-family: monospace;
+    font-size: 50px;
+}
+.hw{
+    width: 60px;
+    margin-left: -30px;
+}
+.adjust{
+    margin: 50px;
+    margin-bottom: 10px;
+
+}
+.adjust img{
+    width: 320px;
+    margin-top:-100px;
+    height: 60vh;
+}
+.adjust img:hover{
+    width: 285px;
+    opacity: 70%;
+    transition: 1s;
+}
+.grid{
+    margin-top: -10px;
+}
+@media screen and (max-width: 900px){
+    .textb{ 
+        width: 35%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    margin-right: 100%;
+    }
+    .navl ul li{
+        list-style: none;
+        display: inline-block;
+        padding:  4px 6px;
+        position: relative;
+    }
+    .navl ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 9px;
+        border: 5px;
+        border-color: white;
+        margin: 5px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+
+}
+footer {
+    background-color: #121111;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h2 {
+    color: rgb(187, 219, 41);
+}
+
+.footer-section p {
+    color: #ccc;
+}
+
+.footer-section a {
+    color:  #ccc;;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    margin-left: 130px;
+    
+}
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+.image{
+    height: 25px;
+    width: 25px;
+}
+.footer-section{
+    display: inline;
+}
+.mail{
+    height:20px;
+    width:25px;
+    margin-left: -120px;
+}
+.phone{
+    height:25px;
+    width:25px;
+}
+.follow{
+    margin-left: 130px;
+}
+.phone1{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.footer-section.contact{
+    margin-left: 100px;
+}
+.footer-section.about{
+    margin-right:50px;
+}
+.footer-section.contact p{
+    margin-top: 20px;
+}
